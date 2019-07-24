@@ -1,6 +1,13 @@
 foo\_package package
 ====================
 
+Subpackages
+-----------
+
+.. toctree::
+
+   foo_package.foo_subpackage
+
 Submodules
 ----------
 

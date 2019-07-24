@@ -12,9 +12,9 @@ class FooClass():
     """
 
     def __init__(self, foo_param):
-        """This is the constructor
+        """this is the constructor
 
-        And here I explain quite nothing about this method
+        and here i explain quite nothing about this method
 
         :param foo_param: string that is stored in foo_attr
         :type foo_param: str
