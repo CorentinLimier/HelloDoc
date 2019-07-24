@@ -16,5 +16,6 @@ Run this command line (inside ./documentation dir):
 
 3/ Generate documentation
 This is illustrated in ./documentation/generate_doc.sh script file
-Run this command line :
+Run these command lines (inside ./documentation dir):
+    $ sphinx-apidoc -f -o source/ <LIBRARY_PATH>
     $ sphinx-build <DOC_CONFIG_DIR_PATH> <OUTPUT_DIR_PATH> 
