@@ -27,7 +27,7 @@ def main(foo_obj, bar_obj):
     :param foo_obj: The foo parameter
     :type foo_obj: foo_package.foo_module.FooClass
     :param bar_obj: The bar parameter
-    :type bar_obj: foo_package.foo_module.BarClass
+    :type bar_obj: bar_package.bar_module.BarClass
     :returns: True for success, False otherwise 
     :rtype: bool
     """
