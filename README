@@ -5,16 +5,16 @@ Documentation config : ./documentation
 Documentation (html): ./doc_html
 
 1/ Generate doc config
-This is illustrated within documentation/generate_config.sh script file
-Run this command line (within documentation dir): 
+This is illustrated in ./documentation/generate_config.sh script file
+Run this command line (inside ./documentation dir): 
     $ sphinx-quickstart -q -p <PROJECT_NAME> -a <AUTHOR> -v <VERSION> --ext-autodoc 
 
-2/ Make a little change on documentation/conf.py file and add these lines :
+2/ Make a little change on ./documentation/conf.py file and add these lines :
     import os
     import sys
     sys.path.insert(0, os.path.abspath('<RELATIVE_PATH_TO_YOUR_LIB>))
 
 3/ Generate documentation
-This is illustrated within documentation/generate_doc.sh script file
+This is illustrated in ./documentation/generate_doc.sh script file
 Run this command line :
     $ sphinx-build <DOC_CONFIG_DIR_PATH> <OUTPUT_DIR_PATH> 
