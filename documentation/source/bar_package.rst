@@ -1,13 +1,13 @@
-foo\_module package
-===================
+bar\_package package
+====================
 
 Submodules
 ----------
 
-foo\_module.foo\_package module
+bar\_package.bar\_module module
 -------------------------------
 
-.. automodule:: foo_module.foo_package
+.. automodule:: bar_package.bar_module
    :members:
    :undoc-members:
    :show-inheritance:
@@ -16,7 +16,7 @@ foo\_module.foo\_package module
 Module contents
 ---------------
 
-.. automodule:: foo_module
+.. automodule:: bar_package
    :members:
    :undoc-members:
    :show-inheritance:

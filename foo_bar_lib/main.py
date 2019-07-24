@@ -15,8 +15,8 @@ Examples:
 """
 import argparse
 
-import foo_module.foo_package
-import bar_module.bar_package
+import foo_package.foo_module
+import bar_package.bar_module
 
 
 def main(foo_obj, bar_obj):
@@ -25,9 +25,9 @@ def main(foo_obj, bar_obj):
     This function is called when script is executed.
 
     :param foo_obj: The foo parameter
-    :type foo_obj: foo_module.foo_package.FooClass
+    :type foo_obj: foo_package.foo_module.FooClass
     :param bar_obj: The bar parameter
-    :type bar_obj: foo_module.foo_package.BarClass
+    :type bar_obj: foo_package.foo_module.BarClass
     :returns: True for success, False otherwise 
     :rtype: bool
     """
@@ -45,7 +45,7 @@ if __name__=="__main__":
 
     args = parser.parse_args()
 
-    foo_obj = foo_module.foo_package.FooClass(args.foo)
-    bar_obj = bar_module.bar_package.BarClass(args.bar)
+    foo_obj = foo_package.foo_module.FooClass(args.foo)
+    bar_obj = bar_package.bar_module.BarClass(args.bar)
 
     main(foo_obj, bar_obj)

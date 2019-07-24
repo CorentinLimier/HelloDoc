@@ -1,5 +1,5 @@
 """
-foo package
+foo module
 """
 
 class FooClass():

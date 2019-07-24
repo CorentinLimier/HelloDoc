@@ -1,5 +1,5 @@
 """
-bar package
+bar module
 """
 
 class BarClass():
